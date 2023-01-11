@@ -1,0 +1,52 @@
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Sofia Sans, sans-serif;
+    background-color: #D9CEC5;
+    color: #A66C00;
+    font-size: 16px;
+    padding-left: 10px;
+    }
+
+.social_network {
+margin: auto;
+}
+.arrow {
+width: 20px;
+}
+
+.img {
+    width: 800px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 600px) { 
+.img {
+    width: 350px;
+    /* height: auto; */
+    }
+}
+
+.wrapper {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
+
+.contact_me_button {
+    text-decoration: none;
+    background: transparent;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #B69369;
+    border-radius: 5px;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #B69369;
+    transition: .2s ease-in-out;
+    }
